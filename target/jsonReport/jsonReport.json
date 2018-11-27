@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10478720783,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.setUpDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.dbConnection()"
+            }
+          },
+          {
+            "result": {
+              "duration": 49959,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.serverConnection()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 60909,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.closeServerConnection()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.closeDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "duration": 671650729,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174947013,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "HooksSteps.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 394501814,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I complete action",
+            "match": {
+              "location": "HooksSteps.i_complete_action()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2568608074,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "HooksSteps.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Hooks.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
